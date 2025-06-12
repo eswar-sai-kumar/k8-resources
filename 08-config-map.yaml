@@ -1,0 +1,10 @@
+# used to store configuration values
+kind: ConfigMap
+apiVersion: v1 
+metadata:
+  name: configmap 
+data:
+  course: DevOps
+  trainer: siva
+  github: "https://github.com/eswar-sai-kumar/k8-resources.git"
+
