@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: Label
+  labels:
+    name: sai kumar
+    age: 22
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    
